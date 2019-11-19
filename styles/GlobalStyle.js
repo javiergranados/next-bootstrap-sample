@@ -27,6 +27,15 @@ const GlobalStyle = createGlobalStyle`
     background-color: white;
     border-radius: 10px;
   }
+  .navbar{
+    box-shadow:0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+  }
+  .navbar-toggler{
+    font-size: 12px;
+    right: 0;
+    padding: 13px;
+    border: 0;
+  }
 `;
 
 export default GlobalStyle;
