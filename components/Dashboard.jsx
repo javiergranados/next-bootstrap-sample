@@ -1,10 +1,9 @@
-import Button from 'react-bootstrap/Button';
+import Header from './Header';
+import Content from './Content';
 
-const Dashboard = () => (
+export default () => (
   <>
-    <p>Hello world!</p>
-    <Button variant="primary">Primary</Button>
+    <Header />
+    <Content />
   </>
 );
-
-export default Dashboard;
